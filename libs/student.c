@@ -76,7 +76,7 @@ void empty( struct dorm_t *dorm){
 }
 
 void empty_students_dorm(struct student_t *students, struct dorm_t *dorm){
-    if (students->dorm == dorm){
+    if (students->dorm==dorm){
     students->dorm = NULL;
-}
+    }
 } 
