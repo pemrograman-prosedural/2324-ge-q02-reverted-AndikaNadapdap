@@ -27,6 +27,6 @@ void assign_student(struct student_t *students, struct dorm_t *dorm , char *_id,
 void move_students(struct student_t *students, struct dorm_t *dorm , char *_id, char *_dorm_name);
 void unassgined(struct student_t *students, struct dorm_t *dorm);
 void empty( struct dorm_t *dorms);
-void empty_students_dorm(struct student_t *students);
+void empty_students_dorm(struct student_t *students, struct dorm_t *dorm);
 
 #endif
