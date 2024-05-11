@@ -69,3 +69,8 @@ void move_students(struct student_t *students, struct dorm_t *dorm , char *_id, 
         dorm->residents_num++;
     }
 }
+
+void empty( struct dorm_t *dorm){
+        dorm->residents_num = 0;
+
+}

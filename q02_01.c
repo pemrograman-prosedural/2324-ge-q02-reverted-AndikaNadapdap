@@ -114,6 +114,16 @@ int main(int _argc, char **_argv)
             unassgined(&students[index_student],&dorms[index_dorm]);
 
 
+        } else if (strcmp(token,"dorm-empty")==0){
+            token = strtok(NULL, "#");
+            char *asrama = token;
+            for (int j = 0; j < total_dorms; j++){
+                if(strcmp(dorms[j].name,asrama)==0){
+                    index_dorm = j;
+                }
+            }
+            empty(&dorms[index_dorm]) ;
+
         }
     }
     return 0;
