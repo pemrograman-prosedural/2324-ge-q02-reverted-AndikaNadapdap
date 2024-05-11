@@ -77,4 +77,4 @@ void empty( struct dorm_t *dorm){
 
 void empty_students_dorm(struct student_t *students){
     students->dorm = NULL;
-}
+} 
