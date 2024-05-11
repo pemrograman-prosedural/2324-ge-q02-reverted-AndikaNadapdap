@@ -123,6 +123,9 @@ int main(int _argc, char **_argv)
                 }
             }
             empty(&dorms[index_dorm]) ;
+            for (int i; i < total_students; i++){
+            empty_students_dorm(&students[i]);
+            }
 
         }
     }

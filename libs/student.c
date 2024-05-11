@@ -71,6 +71,10 @@ void move_students(struct student_t *students, struct dorm_t *dorm , char *_id, 
 }
 
 void empty( struct dorm_t *dorm){
-        dorm->residents_num = 0;
 
+         dorm->residents_num = 0;
+}
+
+void empty_students_dorm(struct student_t *students){
+    students->dorm = NULL;
 }
